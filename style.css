@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -13,7 +13,7 @@ body {
 
 /* ======== NAVBAR ======== */
 header {
-  background-color: #000000;
+  background-color: #080808;
   color: #fff;
   padding: 15px 0;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
@@ -27,8 +27,6 @@ header {
   align-items: center;
   padding: 0 25px;
 }
-
-
 
 .logo {
   font-size: 1.3em;
@@ -62,7 +60,6 @@ header {
 
 /* ======== INICIO ======== */
 .inicio {
-  
   height: 90vh;
   position: relative;
   display: flex;
@@ -78,16 +75,11 @@ header {
   background: rgba(0, 0, 0, 0.5);
 }
 
-
-
-
-
 .banner-texto {
   position: relative;
   z-index: 2;
   max-width: 700px;
 }
-
 
 .banner-texto h1 {
   font-size: 2.8em;
@@ -114,19 +106,12 @@ header {
   background-color: #0097a7;
 }
 
-
-
-/* --- Mantener el footer abajo --- */
-html, body {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
+/* Mantener footer abajo */
 main {
-  flex: 1; 
+  flex: 1;
 }
 
+/* ======== NOSOTROS ======== */
 .banner-nosotros {
   display: flex;
   justify-content: center;
@@ -152,6 +137,7 @@ main {
   line-height: 1.6;
   color: #555;
 }
+
 /* ======== PRODUCTOS ======== */
 .productos {
   padding: 60px 20px;
@@ -241,41 +227,31 @@ button {
 }
 
 button:hover {
-  background-color: #0097a7;
+  background-color: #03c5df;
 }
 
-
-/* ======== LOGO EN NAVBAR ======== */
+/* LOGO EN NAVBAR */
 .logo-img {
   width: 80px;
   height: auto;
   vertical-align: middle;
   margin-right: 10px;
-  }
+}
 
-/* ======== LOGO EN BANNER ======== */
+/* LOGO EN BANNER */
 .banner-logo {
   width: 180px;
   height: auto;
   margin-bottom: 20px;
 }
 
-/* ======== FONDO DEL INICIO ======== */
-.inicio {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-   url('fondo-futbol.jpg') center/cover no-repeat;
-  color: white;
-  text-align: center;
-  padding: 100px 20px;
-}
 /* ======== FOOTER ======== */
 footer {
   background-color: #000;
   color: white;
   text-align: center;
-  padding: 25px 0; /* altura más grande */
-  font-size: 1.1em; /* texto un poco más grande */
+  padding: 25px 0;
+  font-size: 1.1em;
   margin-top: auto;
   box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.3);
 }
-
